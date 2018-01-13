@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 1st Chat Room </title>
+		<link href="style/style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+		<div id="container">
+			<form action="POST">
+				<textarea name="chatMessage" id="chat_input" rows="7" cols="60"></textarea>
+				<input type="submit" id="send_chat">
+			</form>
+			<div id="message_box">
+				<ul id="message_list">
+					<li class="message">
+						NaitRAM: Welcome to the ugliest chat room!
+					</li>
+					<li class="message">
+						MJMaster: Damn this is ugly!
+					</li>
+					<li class="message">
+						NaitRAM: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis voluptatibus corrupti repellendus rerum, sint nisi!
+					</li>
+					<li class="message">
+						MJMaster: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, esse.
+					</li>
+					<li class="message">
+						MJMaster: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque inventore, veritatis, asperiores consequatur explicabo ullam, iure est vitae commodi architecto facere. Quas, amet quos!
+					</li>
+				</ul>
+			</div>
+		</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="script/index.js"></script>
+	</body>
+</html>

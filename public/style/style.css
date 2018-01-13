@@ -1,0 +1,33 @@
+body {
+	background-color: #666;
+}
+
+#container {
+	max-width: 80%;
+	margin: 5px auto;
+	border: 1px solid black;
+	padding: 10px 10%;
+}
+
+#message_list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#message_box, form {
+	max-width: 65%;
+}
+
+#chat_input {
+	max-width: 100%;
+}
+	
+#send_chat {
+	display: block;
+	margin-top: 10px;
+}
+
+.message {
+	margin-top: 5px;
+	font-weight: bold;
+}
